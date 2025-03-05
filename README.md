@@ -27,8 +27,7 @@ or
 To download the project follow the instructions bellow
 
 ```
-[git clone https://github.com/computationalcore/react-to-do-list
-cd myreads](https://github.com/ShubhamChandratre/react-to-do-list.git)
+git clone https://github.com/ShubhamChandratre/react-to-do-list.git
 ```
 
 Install dependencies and run with:
