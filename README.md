@@ -56,3 +56,38 @@ v1.1
 * Task transitions animations
 * Remove tasks capabilities
 
+## **Deploying on AWS Amplify**
+### **Step 1: Sign in to AWS**
+- Go to [AWS Amplify Console](https://aws.amazon.com/amplify/) and sign in.
+
+### **Step 2: Create a New App**
+1. Click **“Host a Web App”**  
+2. Select **GitHub**, **GitLab**, or **Bitbucket**  
+3. Connect your repository  
+4. Select the **branch (e.g., main/master)** for deployment  
+
+### **Step 3: Configure Build Settings**
+- AWS Amplify automatically detects React.js, but you can customize the build settings:  
+```yaml
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+```
+
+### **Step 4: Deploy the Application**
+- Click **"Save and Deploy"**  
+- AWS Amplify will **build** and **host** your application  
+- Once deployed, you’ll get a live URL (e.g., `https://your-app.amplifyapp.com`)
