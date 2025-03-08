@@ -62,9 +62,14 @@ v1.1
 
 ### **Step 2: Create a New App**
 1. Click **“Host a Web App”**  
-2. Select **GitHub**, **GitLab**, or **Bitbucket**  
+2. Select **GitHub**, **GitLab**, or **Bitbucket**
+![My Image](images/step1.png)
+  
 3. Connect your repository  
-4. Select the **branch (e.g., main/master)** for deployment  
+4. Select the **branch (e.g., main/master)** for deployment 
+![My Image](images/step2.png)
+
+ 
 
 ### **Step 3: Configure Build Settings**
 - AWS Amplify automatically detects React.js, but you can customize the build settings:  
@@ -86,8 +91,12 @@ frontend:
     paths:
       - node_modules/**/*
 ```
+![My Image](images/step3.png)
+
 
 ### **Step 4: Deploy the Application**
 - Click **"Save and Deploy"**  
 - AWS Amplify will **build** and **host** your application  
 - Once deployed, you’ll get a live URL (e.g., `https://your-app.amplifyapp.com`)
+![My Image](images/overview.png)
+![My Image](images/hosting.png)
