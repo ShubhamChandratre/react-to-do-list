@@ -96,8 +96,5 @@ frontend:
 - Click **"Save and Deploy"**  
 - AWS Amplify will **build** and **host** your application  
 - Once deployed, you’ll get a live URL (e.g., `https://your-app.amplifyapp.com`)
-<<<<<<< HEAD
 ![My Image](images/overview.png)
 ![My Image](images/hostedwebsite.png)
-=======
->>>>>>> 801e29b5b5020f063a729fdc25e3efba11eb14a
