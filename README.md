@@ -64,8 +64,7 @@ v1.1
 2. Select **GitHub**, **GitLab**, or **Bitbucket**
 ![My Image](images/step1.png)
   
-3. Connect your repository  
-4. Select the **branch (e.g., main/master)** for deployment 
+3. Connect your repository, Select the **branch (e.g., main/master)** for deployment 
 ![My Image](images/step2.png)
 
  
@@ -99,6 +98,6 @@ frontend:
 - Once deployed, you’ll get a live URL (e.g., `https://your-app.amplifyapp.com`)
 <<<<<<< HEAD
 ![My Image](images/overview.png)
-![My Image](images/hosting.png)
+![My Image](images/hostedwebsite.png)
 =======
->>>>>>> 801e29b5b5020f063a729fdc25e3efba11eb14ac
+>>>>>>> 801e29b5b5020f063a729fdc25e3efba11eb14a
