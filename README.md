@@ -27,8 +27,7 @@ or
 To download the project follow the instructions bellow
 
 ```
-git clone https://github.com/computationalcore/react-to-do-list
-cd myreads
+git clone https://github.com/ShubhamChandratre/react-to-do-list.git
 ```
 
 Install dependencies and run with:
@@ -98,5 +97,8 @@ frontend:
 - Click **"Save and Deploy"**  
 - AWS Amplify will **build** and **host** your application  
 - Once deployed, you’ll get a live URL (e.g., `https://your-app.amplifyapp.com`)
+<<<<<<< HEAD
 ![My Image](images/overview.png)
 ![My Image](images/hosting.png)
+=======
+>>>>>>> 801e29b5b5020f063a729fdc25e3efba11eb14ac
